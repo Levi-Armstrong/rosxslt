@@ -48,4 +48,4 @@ To test the file navigate to /test/rospack/urdf/ execute the command below.
 rosrun rosxslt rosxslt test_rospack.xsl
 
 [ROS-Industrial]: http://www.ros.org/wiki/Industrial
-[XSLT]: http://www.w3schools.com/xsl/
+[XSLT]: http://www.w3schools.com/xsl
