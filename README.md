@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a [XSLT] (Extensible Stylesheet Language Transformation) wrapper for
+This is a [XSLT][] (Extensible Stylesheet Language Transformation) wrapper for
 ROS-Industrial as a new macro language capability.
 
 ## Usage
