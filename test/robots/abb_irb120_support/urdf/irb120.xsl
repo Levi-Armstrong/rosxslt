@@ -3,7 +3,7 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 xmlns:ros="http://wiki.ros.org/rosxslt"
 >
-<xsl:include href="rospkg:rosxslt/test/robots/abb/abb_resources/common_materials.xsl"/>
+<xsl:include href="rospkg:rosxslt/test/robots/abb_resources/common_materials.xsl"/>
 <xsl:param name="prefix" select="''"/>
 <xsl:param name="variant" select="'irb120'"/>
 
@@ -14,14 +14,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/base_link.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/base_link.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/base_link.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/base_link.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>
@@ -30,14 +30,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/link_1.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/link_1.stl"/>
         </geometry>
-        <material name="abb_orange"/>
+        <xsl:copy-of select="$material_abb_orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/link_1.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/link_1.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>
@@ -46,14 +46,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/link_2.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/link_2.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/link_2.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/link_2.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>
@@ -62,14 +62,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/link_3.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/link_3.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/link_3.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/link_3.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>
@@ -78,14 +78,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/link_4.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/link_4.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/link_4.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/link_4.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>
@@ -94,14 +94,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/link_5.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/link_5.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_orange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/link_5.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/link_5.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>
@@ -110,14 +110,14 @@ xmlns:ros="http://wiki.ros.org/rosxslt"
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/visual/link_6.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/visual/link_6.stl"/>
         </geometry>
-        <xsl:copy-of select="$material_abb_dark_gray"/>
+        <xsl:copy-of select="$material_abb_black"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120/collision/link_6.stl"/>
+          <mesh filename="package://rosxslt/test/robots/abb_irb120_support/meshes/irb120/collision/link_6.stl"/>
         </geometry>
         <xsl:copy-of select="$material_abb_yellow"/>
       </collision>

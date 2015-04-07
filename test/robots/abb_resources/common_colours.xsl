@@ -17,8 +17,11 @@
   <!-- RAL 7032 pebble gray, controller -->
   <xsl:variable name="colour_abb_pebble_gray" select="'0.7058823 0.6901961 0.6313725 1'" />
 
-  <!-- RAL 7012 basalt gray (abb dark gray) , robot with dark link color -->
+  <!-- RAL 7012 basalt gray (abb dark gray) , robot primer -->
   <xsl:variable name="colour_abb_dark_gray" select="'0.3450980 0.3647059 0.3686275 1'" />
+
+  <!-- RAL 7021 basalt gray (abb black) , robot with dark link color -->
+  <xsl:variable name="colour_abb_black" select="'0.1882353 0.1960784 0.2039216 1'" />
 
   <!-- Other robot colours availble, but not limited too. -->
   <!-- RAL 3001 signal red -->

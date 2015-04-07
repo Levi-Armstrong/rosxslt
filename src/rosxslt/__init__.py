@@ -49,6 +49,7 @@ def find_env(context, env_name):
         raise e
 
 def find_optenv(context, env_name, *args):
+    print env_name
     if env_name in os.environ:
         return os.environ[env_name]
     elif len(args)>=1:

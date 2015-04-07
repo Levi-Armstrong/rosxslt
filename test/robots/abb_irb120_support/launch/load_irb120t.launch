@@ -1,0 +1,3 @@
+<launch>
+  <param name="robot_description" command="$(find rosxslt)/scripts/rosxslt '$(find rosxslt)/test/robots/abb_irb120_support/urdf/irb120.xsl' variant:=irb120t" />
+</launch>

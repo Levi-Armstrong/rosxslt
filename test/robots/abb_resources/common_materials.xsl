@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:include href="rospkg:rosxslt/test/robots/abb/abb_resources/common_colours.xsl"/>
+  <xsl:include href="rospkg:rosxslt/test/robots/abb_resources/common_colours.xsl"/>
 
   <xsl:variable name="material_abb_orange">
     <material name="">
@@ -29,6 +29,12 @@
   <xsl:variable name="material_abb_dark_gray">
     <material name="">
       <color rgba="{$colour_abb_dark_gray}"/>
+    </material>
+  </xsl:variable>
+
+  <xsl:variable name="material_abb_black">
+    <material name="">
+      <color rgba="{$colour_abb_black}"/>
     </material>
   </xsl:variable>
 
