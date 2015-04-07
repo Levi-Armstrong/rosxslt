@@ -40,10 +40,10 @@ roslaunch test_irb120.launch
 
 ### How to use rospack commands
 
-The example dimonstrating how to use rospack commands are found in
+The example demonstrating how to use rospack commands are found in
 /test/rospack/urdf/test_rospack.xsl.
 
-To test the file navigate to /test/rospack/urdf/ execute the command below.
+To test the file, navigate to /test/rospack/urdf/ execute the command below.
 
 rosrun rosxslt rosxslt test_rospack.xsl
 
